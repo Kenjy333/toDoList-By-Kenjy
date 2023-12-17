@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35b6f63f5b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <input type="text" id="td" placeholder="Type text and then press enter to add toDoList">
+        <div id="containerNotes">
+            <!-- nie usuwac -->
+        </div>
+    </div>
+    <div id="deleteWindow">
+        <h1>Here u can edit your note</h1>
+        <div class="centered-elements">
+            <div id="windowText" class="window">
+                <span>Change text color</span>
+                <label class="circleText-label" for="colorText">
+                    <input type="color" name="color" id="colorText">
+                </label>
+            </div>
+            <div id="windowBcg" class="window">
+                <span>Change background color</span>
+                <label class="circleBcg-label" for="colorBcg">
+                    <input type="color" name="color" id="colorBcg">
+                </label>
+            </div>
+            <div id="btnDelete" style="font-size: 4.5rem;"><i class="fa-solid fa-trash"></i></div>
+            <div id="btnAccept" style="font-size: 4.5rem;"><i class="fa-solid fa-check"></i></div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
